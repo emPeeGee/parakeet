@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
 import styled from 'styled-components'
 
 const Title = styled.h1`
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       </Head>
 
         <Title>Parakeet</Title>
+        <Image src="/typing.gif" width={1200} height={700} alt="Typing" />
     </>
   )
 }

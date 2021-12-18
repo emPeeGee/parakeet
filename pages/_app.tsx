@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
@@ -14,7 +15,7 @@ const theme = {
   },
 }
 
-export default function App({ Component, pageProps }: any) {
+export default function App({ Component, pageProps }: any): JSX.Element {
   return (
     <>
       <GlobalStyle />

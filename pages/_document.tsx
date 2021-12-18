@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Document from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
